@@ -23,12 +23,12 @@ public class Main {
         int recorrido3 = recorrido2 +2;
         System.out.println(nombre + " abre sus ocho ojos en un pliege de la cortina a la altura del techo ");
         System.out.println(nombre + " mira hacia los lados pensando que hacer");
-        System.out.println("que deberia hacer"+nombre );
+        System.out.println(" que deberia hacer " + nombre + " escoje una de ellas");
         //decision1//
-        System.out.println("1.  se mueve hacia la derecha " + recorrido + "metros");
-        System.out.println("2.  se descuelga por la cortina hasta el suelo");
-        System.out.println("3. no hace nada");
-        System.out.println("escoje una de ellas");
+        System.out.println(" 1.  se mueve hacia la derecha " + recorrido + "metros");
+        System.out.println(" 2.  se descuelga por la cortina hasta el suelo");
+        System.out.println(" 3.  no hace nada");
+
 
 
         int decision1 = entrada.nextInt();
@@ -45,18 +45,17 @@ public class Main {
             recorrido += 0;
             System.out.println( "\n" + nombre + "vaguea y no hace nada");
 
-           
+
 
         }
 
 
 
         //decision 2//
-        System.out.println("que debe hacer ahora");
+        System.out.println(" que debe hacer ahora, escoje una ");
         System.out.println(" 1. llega hacia el proyector");
-        System.out.println(   " 2.se mete en la mochila de un alumno");
-        System.out.println(  " 3. salta a la mesa de un alumno");
-        System.out.println ("elije una de las 3");
+        System.out.println(" 2. se mete en la mochila de un alumno");
+        System.out.println(" 3. salta a la mesa de un alumno");
 
         int decision2 = entrada.nextInt();
 
@@ -77,7 +76,7 @@ public class Main {
         System.out.println( " 1. tapa el pryector,e" + "l profesor la ve y la tira por la ventana");
         System.out.println( " 2. la ve y la mata");
         System.out.println( " 3. se mete dentro, el alumno no la ve y se la lleva ");
-        System.out.println( "  elije 1 de las 3");
+
         int decision3 = entrada.nextInt();
 
         if (decision3 == 1) {
